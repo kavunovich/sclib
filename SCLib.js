@@ -7,7 +7,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-export class SCLib {
+class SCLib {
     static init() {
         if (SCLib.websocket_url.trim() === '' || SCLib.access_token.trim() === '' || SCLib.steam) {
             return false;
