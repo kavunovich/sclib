@@ -1,0 +1,3 @@
+pip install websocket-client
+pip install msgpack
+pip install aiohttp
